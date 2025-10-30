@@ -78,33 +78,32 @@ A comprehensive web application for tracking and managing official recognitions 
    
    Navigate to [http://localhost:3000](http://localhost:3000)
 
-## Project Structure
+## 🗂️ Project Structure
 
-\`\`\`
+```bash
 honoree-recognition-app/
-├── app/
-│   ├── page.tsx                 # Landing page
-│   ├── login/page.tsx           # Authentication
-│   ├── dashboard/page.tsx       # Main dashboard
-│   ├── honoree/[id]/page.tsx    # Recognition actions
-│   ├── letter/[id]/page.tsx     # Letter generator
-│   ├── ceremony/[id]/page.tsx   # Public ceremony page
-│   └── settings/page.tsx        # User settings
-├── components/
-│   ├── navbar.tsx               # Navigation bar
-│   ├── sidebar.tsx              # Dashboard sidebar
-│   ├── honoree-card.tsx         # Honoree display card
-│   ├── recognition-card.tsx     # Recognition item
-│   ├── letter-form.tsx          # Letter input form
-│   ├── letter-preview.tsx       # Letter preview
-│   └── ui/                      # shadcn components
-├── context/
-│   ├── auth-context.tsx         # Authentication state
-│   └── honoree-context.tsx      # Honoree data management
-├── utils/
-│   └── templates.ts             # Letter templates
-└── public/                      # Static assets
-\`\`\`
+ ├── app/
+ │    ├── page.tsx                 # Landing page
+ │    ├── login/page.tsx           # Authentication
+ │    ├── dashboard/page.tsx       # Main dashboard
+ │    ├── honoree/[id]/page.tsx    # Recognition actions
+ │    ├── letter/[id]/page.tsx     # Letter generator
+ │    ├── ceremony/[id]/page.tsx   # Public ceremony page
+ │    └── settings/page.tsx        # User settings
+ ├── components/
+ │    ├── navbar.tsx               # Navigation bar
+ │    ├── sidebar.tsx              # Dashboard sidebar
+ │    ├── honoree-card.tsx         # Honoree display card
+ │    ├── recognition-card.tsx     # Recognition item
+ │    ├── letter-form.tsx          # Letter input form
+ │    ├── letter-preview.tsx       # Letter preview
+ │    └── ui/                      # shadcn components
+ ├── context/
+ │    ├── auth-context.tsx         # Authentication state
+ │    └── honoree-context.tsx      # Honoree data management
+ ├── utils/
+ │    └── templates.ts             # Letter templates
+ └── public/                       # Static assets
 
 ## Configuration
 
