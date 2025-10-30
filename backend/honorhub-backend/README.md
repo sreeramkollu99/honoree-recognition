@@ -170,19 +170,11 @@ Sreeram Kollu — Backend Developer
 
 (Frontend team / collaborators)
 
-📜 License
-
-This project is released under the MIT License.
-See LICENSE for details.
 
 
 ---
 
-✅ **Usage**
-1. Save this file as:  
 
-
-backend/README.md
 
 2. Commit and push:
 ```bash
