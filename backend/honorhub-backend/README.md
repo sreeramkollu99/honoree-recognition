@@ -21,19 +21,18 @@ It provides REST APIs for authentication, honoree management, and integration wi
 
 ## 🗂️ Project Structure
 
-
-
+```bash
 backend/
-├── src/main/java/com/honorhub/honorhub_backend/
-│ ├── controller/ # REST controllers (Auth, Honoree, etc.)
-│ ├── model/ # JPA entities (User, Role)
-│ ├── repository/ # Spring Data repositories
-│ ├── service/ # Business logic (AuthService, etc.)
-│ ├── security/ # JWT filters & security config
-│ └── config/ # Spring Security & CORS setup
-├── src/main/resources/
-│ ├── application.yml # Environment configuration
-└── pom.xml # Maven dependencies
+ ├── src/main/java/com/honorhub/honorhub_backend/
+ │    ├── controller/          # REST controllers (Auth, Honoree, etc.)
+ │    ├── model/               # JPA entities (User, Role)
+ │    ├── repository/          # Spring Data repositories
+ │    ├── service/             # Business logic (AuthService, etc.)
+ │    ├── security/            # JWT filters & security config
+ │    └── config/              # Spring Security & CORS setup
+ ├── src/main/resources/
+ │    └── application.yml      # Environment configuration
+ └── pom.xml                   # Maven dependencies
 
 
 ---
