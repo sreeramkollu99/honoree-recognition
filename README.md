@@ -27,7 +27,7 @@ Copy code
 
 Each sub-folder has its own README file with detailed setup instructions.
 
-- [Frontend README →](./frontend/README.md)
+- [Frontend README →](./frontend/honoree-recognition-app/README.md)
 - [Backend README →](./backend/README.md)
 
 ---
